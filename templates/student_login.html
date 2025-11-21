@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html>
+<head><title>Admin Login</title></head>
+<body style="text-align:center; font-family:Arial;">
+    <h2>👨‍💼 Student Login</h2>
+    {% if error %}<p style="color:red;">{{ error }}</p>{% endif %}
+    <form method="post">
+        <label>Username:</label><br>
+        <input type="text" name="username" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <a href="/">🏠 Home</a>
+</body>
+</html> -->
+
+<!-- <label>Password:</label><br>
+<input type="password" name="password" required><br><br> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+    <div class="col-md-4 mx-auto shadow bg-white p-4 rounded">
+
+        <h3 class="text-center">👨‍🎓 Student Login</h3>
+
+        {% if error %}
+            <div class="alert alert-danger">{{ error }}</div>
+        {% endif %}
+
+        <form method="POST">
+            <label class="form-label">Enter Student ID</label>
+            <input type="text" name="student_id" class="form-control" required>
+
+            <button class="btn btn-success w-100 mt-3">Check Result</button>
+        </form>
+
+        <div class="text-center mt-3">
+            <a href="/">⬅ Back to Home</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+    <div class="col-md-4 mx-auto shadow bg-white p-4 rounded">
+
+        <h3 class="text-center mb-3">👨‍🎓 Student Login</h3>
+
+        {% if error %}
+            <div class="alert alert-danger">{{ error }}</div>
+        {% endif %}
+
+        <form method="POST">
+            <label class="form-label">Enter Student ID</label>
+            <input type="text" name="student_id" class="form-control" required>
+            <button class="btn btn-success w-100 mt-3">Check Result</button>
+        </form>
+
+        <div class="text-center mt-3">
+            <a href="/">⬅ Back to Home</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

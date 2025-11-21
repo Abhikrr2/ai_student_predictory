@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    background-color: #009879;
+    color: white;
+    border-radius: 5px;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+}
