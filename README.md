@@ -18,6 +18,7 @@ AI Student Performance Predictor
 A Machine Learning + Neural Network-based web platform to predict student performance and classify them as Excellent, Average, or At Risk.
 
 Live Demo: Deployed on Render Cloud Hosting
+https://ai-student-predictory.onrender.com/
 
 Project Summary
 Educational institutions often struggle to monitor student performance early and intervene before it’s too late. This application provides:
