@@ -272,9 +272,7 @@ def student_login():
     # GET request → just show the form
     return render_template('student_login.html')
 
-
-##from fpdf import FPDF  # already imported earlier in your file, if not, add this at top
-
+#pdf
 
 @app.route('/student_result_pdf/<student_id>')
 def student_result_pdf(student_id):
